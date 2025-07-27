@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoRFP - Automate Your RFP Process</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#eff6ff',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm border-b">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold text-primary-600">AutoRFP</h1>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#features" class="text-gray-600 hover:text-primary-600 px-3 py-2 text-sm font-medium">Features</a>
+                        <a href="#pricing" class="text-gray-600 hover:text-primary-600 px-3 py-2 text-sm font-medium">Pricing</a>
+                        <a href="#about" class="text-gray-600 hover:text-primary-600 px-3 py-2 text-sm font-medium">About</a>
+                        <button class="bg-white hover:bg-gray-50 text-primary-600 font-semibold py-3 px-6 rounded-lg border border-primary-600 transition-colors duration-200">Sign In</button>
+                        <button class="bg-primary-600 hover:bg-primary-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-primary-50 to-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+                    Automate Your <span class="text-primary-600">RFP Process</span>
+                </h1>
+                <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+                    Transform your Request for Proposal workflow with AI-powered automation. 
+                    Save time, reduce errors, and win more contracts with intelligent RFP management.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button class="bg-primary-600 hover:bg-primary-700 text-white font-semibold text-lg px-8 py-4 rounded-lg transition-colors duration-200">
+                        Start Free Trial →
+                    </button>
+                    <button class="bg-white hover:bg-gray-50 text-primary-600 font-semibold text-lg px-8 py-4 rounded-lg border border-primary-600 transition-colors duration-200">
+                        Watch Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Powerful Features for RFP Success
+                </h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Everything you need to streamline your RFP process and win more business
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+                    <div class="h-12 w-12 text-primary-600 mb-4">📄</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">AI-Powered Content Generation</h3>
+                    <p class="text-gray-600">Generate compelling RFP responses using advanced AI that understands your business and industry requirements.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+                    <div class="h-12 w-12 text-primary-600 mb-4">⏰</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Automated Workflows</h3>
+                    <p class="text-gray-600">Set up automated workflows that handle routine tasks, deadlines, and notifications to keep your team on track.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+                    <div class="h-12 w-12 text-primary-600 mb-4">📊</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Analytics & Insights</h3>
+                    <p class="text-gray-600">Track your RFP performance with detailed analytics and insights to improve your win rates over time.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+                    <div class="h-12 w-12 text-primary-600 mb-4">👥</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Team Collaboration</h3>
+                    <p class="text-gray-600">Collaborate seamlessly with your team members, assign tasks, and manage permissions all in one place.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+                    <div class="h-12 w-12 text-primary-600 mb-4">⚙️</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Custom Templates</h3>
+                    <p class="text-gray-600">Create and manage custom templates for different types of RFPs to ensure consistency and quality.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+                    <div class="h-12 w-12 text-primary-600 mb-4">✅</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Compliance Tracking</h3>
+                    <p class="text-gray-600">Ensure all requirements are met with automated compliance checking and requirement tracking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-20 bg-primary-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-4xl font-bold text-primary-600 mb-2">10,000+</div>
+                    <div class="text-gray-600">RFPs Processed</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold text-primary-600 mb-2">85%</div>
+                    <div class="text-gray-600">Average Win Rate</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold text-primary-600 mb-2">60%</div>
+                    <div class="text-gray-600">Time Saved</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold text-primary-600 mb-2">500+</div>
+                    <div class="text-gray-600">Happy Customers</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-primary-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+                Ready to Transform Your RFP Process?
+            </h2>
+            <p class="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
+                Join thousands of businesses that have streamlined their RFP workflow with AutoRFP
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button class="bg-white text-primary-600 hover:bg-gray-100 font-semibold py-4 px-8 rounded-lg transition-colors duration-200">
+                    Start Your Free Trial
+                </button>
+                <button class="border-2 border-white text-white hover:bg-white hover:text-primary-600 font-semibold py-4 px-8 rounded-lg transition-colors duration-200">
+                    Schedule Demo
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold text-primary-400 mb-4">AutoRFP</h3>
+                    <p class="text-gray-400 mb-4">
+                        Streamline your Request for Proposal process with AI-powered automation.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Product</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Features</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Pricing</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">API</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Integrations</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">About</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Support</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Help Center</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Documentation</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Status</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 AutoRFP. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,5 +1,9 @@
 # 🚀 Deploy AutoRFP to Vercel
 
+## ⚠️ IMPORTANT: Deploy from ROOT directory
+
+The build error occurs when deploying from the wrong directory. Make sure you deploy the ROOT folder, not the `deployment-ready` folder.
+
 ## Quick Deployment Steps
 
 ### Method 1: Deploy via Vercel Dashboard (Easiest)
@@ -10,9 +14,15 @@
    - Don't initialize with README (we already have files)
 
 2. **Upload Your Code to GitHub**
-   - Download all the files from this project
-   - Upload them to your GitHub repository using GitHub's web interface
-   - Or use GitHub Desktop if you prefer a GUI
+   - Upload these files from the ROOT directory (not deployment-ready):
+     - `app/` folder (contains layout.tsx, page.tsx, globals.css)
+     - `package.json`
+     - `next.config.js`
+     - `tailwind.config.js`
+     - `postcss.config.js`
+     - `tsconfig.json`
+     - `vercel.json`
+     - `.gitignore`
 
 3. **Deploy to Vercel**
    - Go to [vercel.com](https://vercel.com)
